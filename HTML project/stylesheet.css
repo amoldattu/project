@@ -1,0 +1,45 @@
+/* General Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    color: black;
+  }
+  
+  header {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+  }
+  
+  header h1 {
+    color: #fff;
+  }
+  
+  header .btn {
+    animation: bounce 2s infinite;
+  }
+  
+  /* About Section */
+  .about img {
+    max-width: 100%;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .about img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Card Hover Effect */
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .lead{
+    font-weight: bold;
+  }
